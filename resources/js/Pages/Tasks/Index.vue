@@ -27,7 +27,7 @@
                                     Status
                                   </th>
                                   <th scope="col" class="relative px-6 py-3">
-                                    <span class="sr-only">Edit</span>
+                                    <span class="sr-only">Options</span>
                                   </th>
                                 </tr>
                               </thead>
@@ -43,7 +43,7 @@
                                           {{ task.name }}
                                         </div>
                                         <div class="text-sm text-gray-500">
-                                          {{ task.user_id }}
+                                          {{ task.user.email }}
                                         </div>
                                       </div>
                                     </div>
